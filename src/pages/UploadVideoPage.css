@@ -1,0 +1,107 @@
+.upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #333;
+  }
+  
+  .upload-box {
+    width: 100%;
+    max-width: 400px;
+    background-color: #666;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+  }
+  
+  .upload-box h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  
+  .upload-box .error-message {
+    color: #e53e3e;
+    margin-bottom: 16px;
+  }
+  
+  .upload-box form .input-group {
+    margin-bottom: 16px;
+  }
+  
+  .upload-box form label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #4a5568;
+    margin-bottom: 8px;
+  }
+  
+  .upload-box form input,
+  .upload-box form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #609be8;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
+  .upload-box form input:focus,
+  .upload-box form select:focus {
+    border-color: #5a67d8;
+  }
+  
+  .upload-box .file-upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #448ff0;
+    border-radius: 4px;
+    height: 150px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .upload-box .file-upload:hover {
+    border-color: #5a67d8;
+  }
+  
+  .upload-box .file-upload input {
+    display: none;
+  }
+  
+  .upload-box .file-upload label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #9abfef;
+  }
+  
+  .upload-box .file-upload label span {
+    font-size: 48px;
+  }
+  
+  .upload-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5a67d8;
+    color: rgb(26, 12, 79);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s;
+  }
+  
+  .upload-box button:hover {
+    background-color: #434190;
+  }
+  
+  .upload-box button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(90, 103, 216, 0.4);
+  }
+  

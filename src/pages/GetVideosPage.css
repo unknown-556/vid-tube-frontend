@@ -1,0 +1,48 @@
+/* GetVideosPage.css */
+.container {
+    background-color: black;
+    padding: 20px;
+  }
+  
+  h1, h3 {
+    color: black;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust grid columns as needed */
+    gap: 20px; /* Adjust gap between grid items */
+  }
+  
+  li {
+    border: 1px solid #ccc; /* Border around each grid item */
+    padding: 10px;
+  }
+  
+  .video-container {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: hidden; /* Ensure video casing does not overflow */
+  }
+  
+  .video-container video {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
+  
